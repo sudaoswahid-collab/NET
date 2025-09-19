@@ -1,0 +1,86 @@
+@media screen and (max-width: 567px) {
+    :root {
+        --text-center-soze: 32px;
+    }
+
+    .container {
+        padding: 0 15px;
+    }
+
+    .header {
+        height: 80vh;
+        background-position: center 20%;
+    }
+
+    .header .flex {
+        padding: 15px 0;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .flex img {
+        width: 100px;
+    }
+
+    .showe-case {
+        top: 50%;
+        transform: translate(-50%, -50%);
+        width: 90%;
+        margin-top: 0;
+    }
+
+    .showe-case h1 {
+        font-size: var(--text-center-soze);
+        line-height: 1.2;
+        max-width: 100%;
+        margin: 0 auto 15px;
+        text-align: center;
+    }
+
+    .showe-case h3 {
+        font-size: 16px;
+        margin: 15px 0;
+        text-align: center;
+        padding-bottom: 5px;
+    }
+
+    .showe-case p {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .showe-case-form {
+        flex-direction: column;
+        margin: 20px auto 0;
+        padding: 5px;
+        border-radius: 3px;
+        max-width: 400px;
+        width: 100%;
+    }
+
+    .showe-case-form input {
+        width: 100%;
+        padding: 12px 15px;
+        margin: 8px 0;
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .btn-dark-form {
+        width: 100%;
+        padding: 12px;
+        margin-top: 5px;
+        font-size: 16px;
+    }
+
+    /* Button alignment in header */
+    .btn-dark-red {
+        padding: 8px 16px;
+        font-size: 14px;
+    }
+
+    /* Center alignment for all text content */
+    .showe-case>* {
+        text-align: center;
+    }
+}
